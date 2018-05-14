@@ -24,6 +24,13 @@ google.com#$##main{ margin-top:-75px }
 
 duckduckgo.com##.header__search-wrap
 
+!HC Header removal (it's just super big)
+houghton.edu###header_wrap
+houghton.edu##.header
+houghton.edu##.footer-new-wrap
+houghton.edu###breadcrumbs
+houghton.edu##.p-sidebar
+
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
 ||youtube.com^|$document
