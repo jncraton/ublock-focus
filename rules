@@ -67,5 +67,8 @@ gdax.com
 ###newsletter-ad
 ###promo-box
 
+!Background color fix for online Word documents
+office.com,live.com,dropbox.com##.WordLastSectionBackground:style(background-color: white !important)
+
 ! 3/8/2018, 8:34:28 AM https://graphviz.readthedocs.io/en/stable/api.html
 graphviz.readthedocs.io##.rtd-pro
