@@ -1,9 +1,10 @@
 !Hide all images on sites where they aren't relevant
-||pandora.com$image
-||$third-party,image,domain=pandora.com
+||$image,domain=pandora.com
+||$image,domain=news.ycombinator.com
 
 !Faster scriptless reddit
 ||$script,domain=reddit.com
+||$script,domain=news.ycombinator.com
 
 !facebook.com##img
 facebook.com##video
