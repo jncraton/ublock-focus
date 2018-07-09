@@ -13,6 +13,9 @@ facebook.com###pagelet_navigation
 facebook.com###pagelet_composer
 facebook.com##.home_right_column
 
+!Hide profile pictures on forums
+##.ipsUserPhoto
+
 !YouTube distraction removal
 youtube.com###comments
 youtube.com###related
