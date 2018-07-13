@@ -62,6 +62,7 @@ houghton.edu##.p-sidebar
 ||reddit.com/r/programming$document
 @@||reddit.com/r/*/comments$document
 ||news.ycombinator.com^|$document
+||news.ycombinator.com/news^|$document
 ||teamliquid.net^|$document
 
 !Time wasting sites
