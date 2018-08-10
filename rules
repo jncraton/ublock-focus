@@ -1,5 +1,6 @@
 !Hide all images on sites where they aren't relevant
 ||$image,domain=pandora.com
+||$image,domain=reddit.com
 ||$image,domain=news.ycombinator.com
 
 !Faster scriptless reddit
