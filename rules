@@ -47,6 +47,7 @@ houghton.edu##.p-sidebar
 !Specific pages are still accessible, just not the root
 ||youtube.com^|$document
 ||facebook.com^|$document
+||github.com^|$document
 ||reddit.com^|$document
 ||reddit.com/r/spacex$document
 !||reddit.com/r/churning$document
