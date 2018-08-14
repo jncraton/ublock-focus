@@ -14,6 +14,10 @@ facebook.com###pagelet_navigation
 facebook.com###pagelet_composer
 facebook.com##.home_right_column
 
+biblegateway.com##.passage-resources
+biblegateway.com##.sys-announce-wrapper
+biblegateway.com##.sidebar-wrap
+
 !Hide profile pictures on forums
 ##.ipsUserPhoto
 
