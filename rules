@@ -47,6 +47,10 @@ houghton.edu##.footer-new-wrap
 houghton.edu###breadcrumbs
 houghton.edu##.p-sidebar
 
+!WU simplifications
+wunderground##.region-favorites-bar
+wunderground##.region-footer
+
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
 ||youtube.com^|$document
