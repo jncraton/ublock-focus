@@ -50,6 +50,8 @@ houghton.edu##.p-sidebar
 !WU simplifications
 www.wunderground.com##.region-favorites-bar
 www.wunderground.com##.region-footer
+||$image,domain=www.wunderground.com
+||$script,domain=www.wunderground.com
 
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
