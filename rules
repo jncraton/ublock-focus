@@ -48,8 +48,8 @@ houghton.edu###breadcrumbs
 houghton.edu##.p-sidebar
 
 !WU simplifications
-wunderground.com##.region-favorites-bar
-wunderground.com##.region-footer
+www.wunderground.com##.region-favorites-bar
+www.wunderground.com##.region-footer
 
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
