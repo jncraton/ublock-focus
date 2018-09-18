@@ -40,29 +40,36 @@ google.com#$##main{ margin-top:-75px }
 
 !Wikipedia simplifications
 
-!Hide all but body content
+!Hide all but body content on desktop
 en.wikipedia.org##body > :not(#content)
 en.wikipedia.org##body > #content > :not(#bodyContent)
 
+!Hide banner
+wikipedia.org##.banner-container
+wikipedia.org###siteNotice
+
+!Hide footer
+wikipedia.org##.post-content 
+wikipedia.org##.footer-content
+wikipedia.org##.last-modifier-tagline
+
 !Hide top subtitles
-en.wikipedia.org###siteSub
-en.wikipedia.org###contentSub
+wikipedia.org###siteSub
+wikipedia.org###contentSub
 
 !Hide edit links
-en.wikipedia.org##.mw-editsection
+wikipedia.org##.mw-editsection
+wikipedia.org###page-actions
+wikipedia.org###edit-page
 
 !TOC
-en.wikipedia.org##.toctogglespan
+wikipedia.org##.toctogglespan
 
 !No link styles
-en.wikipedia.org#$##content a{color:inherit !important}
+wikipedia.org#$##content a{color:inherit !important}
  
 !Change layout
-en.wikipedia.org#$#div#content.mw-body{ !important; max-width:800px; margin:auto;}
-
-!Typograghy
-en.wikipedia.org#$#.mw-body-content{ font-family:Arial,"Helvetica Neue",Helvetica,sans-serif; font-size:13px; line-height:1.3;}
-
+wikipedia.org#$#div#content.mw-body{ !important; max-width:800px; margin:auto;}
 duckduckgo.com##.header__search-wrap
 
 !HC Header removal (it's just super big)
