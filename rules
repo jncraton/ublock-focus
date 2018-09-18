@@ -38,6 +38,15 @@ google.com###extrares
 google.com###footcnt
 google.com#$##main{ margin-top:-75px }
 
+!Wikipedia simplifications
+
+!Hide all but body content
+wikipedia.org##body > :not(#content)
+wikipedia.org##body > #content > :not(#bodyContent)
+
+!Change layout
+wikipedia.org#$#div#content.mw-body{ !important; max-width:800px; margin:auto;}
+
 duckduckgo.com##.header__search-wrap
 
 !HC Header removal (it's just super big)
