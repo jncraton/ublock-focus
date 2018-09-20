@@ -122,6 +122,8 @@ gdax.com
 ###hot-network-questions
 ###newsletter-ad
 ###promo-box
+##.bottom-share-links
+###feed-link
 
 !Background color fix for online Word documents
 office.com,live.com,dropbox.com##.WordLastSectionBackground:style(background-color: white !important)
