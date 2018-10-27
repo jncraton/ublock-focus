@@ -47,6 +47,7 @@ en.wikipedia.org##body > #content > :not(#bodyContent)
 !Hide banner
 wikipedia.org##.banner-container
 wikipedia.org###siteNotice
+wikipedia.org##.ambox
 
 !Hide footer
 wikipedia.org##.post-content 
