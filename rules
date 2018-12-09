@@ -29,8 +29,6 @@ youtube.com###masthead-container
 youtube.com###info-contents
 youtube.com###subscribe-button
 youtube.com##img
-!Move the page down since we don't have the header
-youtube.com#$#ytd-app{ margin-top:-50px }
 
 !Google distaction removal
 google.com###searchform
