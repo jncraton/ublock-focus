@@ -133,6 +133,12 @@ www.wunderground.com##.region-footer
 ||news.ycombinator.com^|$document
 ||news.ycombinator.com/news^|$document
 ||teamliquid.net^|$document
+||reuters.com^|$document
+
+!Online Shopping
+ebay.com
+amazon.com
+newegg.com
 
 !Time wasting sites
 bitcoinity.org
