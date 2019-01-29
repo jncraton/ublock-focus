@@ -14,9 +14,15 @@ facebook.com###pagelet_navigation
 facebook.com###pagelet_composer
 facebook.com##.home_right_column
 
+||$image,domain=biblegateway.com
+||$script,domain=biblegateway.com
+||$font,domain=biblegateway.com
 biblegateway.com##.passage-resources
 biblegateway.com##.sys-announce-wrapper
 biblegateway.com##.sidebar-wrap
+biblegateway.com##header
+biblegateway.com##.search-section
+biblegateway.com##footer
 
 !Hide profile pictures on forums
 ##.ipsUserPhoto
