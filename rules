@@ -95,8 +95,6 @@ duckduckgo.com##.footer
 
 ||icons.duckduckgo.com$important
 
-
-
 !HC Header removal (it's just super big)
 houghton.edu###header_wrap
 houghton.edu##.header
@@ -134,6 +132,7 @@ www.wunderground.com##.region-footer
 ||news.ycombinator.com/news^|$document
 ||teamliquid.net^|$document
 ||reuters.com^|$document
+||brickset.com^|$document
 
 !Online Shopping
 ebay.com
@@ -146,6 +145,12 @@ finance.google.com
 finance.yahoo.com
 news.google.com
 gdax.com
+
+!LEGO sites
+lego.com
+shop.lego.com
+bricklink.com
+store.bricklink.com
 
 !SE hot and related questions
 !These are in place on all sites since there are many SE sites
