@@ -23,6 +23,8 @@ biblegateway.com##.sidebar-wrap
 biblegateway.com##header
 biblegateway.com##.search-section
 biblegateway.com##footer
+biblegateway.com##.passage-bar
+biblegateway.com##.passage-tools2
 
 !Hide profile pictures on forums
 ##.ipsUserPhoto
