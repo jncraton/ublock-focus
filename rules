@@ -51,6 +51,12 @@ google.com#$##main{ margin-top:-75px }
 en.wikipedia.org##body > :not(#content)
 en.wikipedia.org##body > #content > :not(#bodyContent)
 
+!Don't load site logos
+||en.wikipedia.org/static/images/
+
+!Hide sister project links
+wikipedia.org##div[aria-labelledby="sister-projects"]
+
 !Hide banner
 wikipedia.org##.banner-container
 wikipedia.org###siteNotice
