@@ -97,6 +97,9 @@ wikipedia.org###catlinks
 !Change layout
 wikipedia.org#$#div#content.mw-body{ !important; max-width:800px; margin:auto;}
 
+!Tighter text NPR layout
+text.npr.org#$#body {max-width:600px;margin:auto}
+
 duckduckgo.com##.header__search-wrap
 duckduckgo.com##.footer
 
