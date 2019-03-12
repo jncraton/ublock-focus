@@ -13,6 +13,8 @@ facebook.com###pagelet_sidebar
 facebook.com###pagelet_navigation
 facebook.com###pagelet_composer
 facebook.com##.home_right_column
+! News feed content
+facebook.com##.userContentWrapper
 
 ||$image,domain=biblegateway.com
 ||$script,domain=biblegateway.com
