@@ -41,6 +41,9 @@ youtube.com###subscribe-button
 youtube.com##img
 youtube.com###secondary
 
+!YouTube Dark Mode
+youtube.com#$#*{ color:#aaa !important;background-color:#000 !important}
+
 !Google distaction removal
 google.com###searchform
 google.com###extrares
