@@ -132,33 +132,33 @@ www.wunderground.com##.region-footer
 ||youtube.com^|$document
 ||facebook.com^|$document
 ||github.com^|$document
-||reddit.com^|$document
-||reddit.com/r/spacex$document
+!||reddit.com^|$document
+!||reddit.com/r/spacex$document
 !||reddit.com/r/churning$document
-||reddit.com/r/funny$document
-||reddit.com/r/bitcoin$document
-||reddit.com/r/btc$document
-||reddit.com/r/finance$document
-||reddit.com/r/investing$document
-||reddit.com/r/politics$document
-||reddit.com/r/news$document
-||reddit.com/r/worldnews$document
-||reddit.com/r/broodwar$document
-||reddit.com/r/lego$document
-||reddit.com/r/programming$document
+!||reddit.com/r/funny$document
+!||reddit.com/r/bitcoin$document
+!||reddit.com/r/btc$document
+!||reddit.com/r/finance$document
+!||reddit.com/r/investing$document
+!||reddit.com/r/politics$document
+!||reddit.com/r/news$document
+!||reddit.com/r/worldnews$document
+!||reddit.com/r/broodwar$document
+!||reddit.com/r/lego$document
+!||reddit.com/r/programming$document
 @@||reddit.com/r/*/comments$document
-||news.ycombinator.com^|$document
-||news.ycombinator.com/news^|$document
-||teamliquid.net^|$document
-||reuters.com^|$document
-||brickset.com^|$document
+!||news.ycombinator.com^|$document
+!||news.ycombinator.com/news^|$document
+!||teamliquid.net^|$document
+!||reuters.com^|$document
+!||brickset.com^|$document
 
 !Time wasting sites
-bitcoinity.org
-finance.google.com
-finance.yahoo.com
-news.google.com
-gdax.com
+!bitcoinity.org
+!finance.google.com
+!finance.yahoo.com
+!news.google.com
+!gdax.com
 
 !SE hot and related questions
 !These are in place on all sites since there are many SE sites
