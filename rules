@@ -185,6 +185,7 @@ psprd.anderson.edu##a:style(height:unset !important)
 
 !Recolor very orange nav
 psprd.anderson.edu##header *:style(background-image:none !important; background-color:#444 !important)
+psprd.anderson.edu##.ps_header *:style(background-image:none !important; background-color:#444 !important)
 
 !Larger roster photos
 psprd.anderson.edu##.PSIMAGE:style(height:400px !important; width:320px !important)
