@@ -49,6 +49,10 @@ google.com#$##main{ margin-top:-75px }
 
 !Wikipedia simplifications
 
+!Hide sidebar and header
+wikipedia.org###mw-panel
+wikipedia.org###mw-head
+
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
 
