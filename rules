@@ -49,9 +49,6 @@ google.com#$##main{ margin-top:-75px }
 
 !Wikipedia simplifications
 
-!Don't load site logos
-||en.wikipedia.org/static/images/
-
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
 
@@ -83,18 +80,11 @@ wikipedia.org#$##content a{color:inherit !important}
 !No backgrounds or borders
 wikipedia.org#$#*{border:0px !important;background:none !important}
 
-!Single column for all content
-wikipedia.org#$#*{float:none !important}
-wikipedia.org#$#.infobox{width:auto !important}
-
 !Hide bottom nav and categories
 wikipedia.org##.navbox
 wikipedia.org##.vertical-navbox
 wikipedia.org###catlinks
  
-!Change layout
-wikipedia.org#$#div#content.mw-body{ !important; max-width:800px; margin:auto;}
-
 !Tighter text NPR layout
 text.npr.org#$#body {max-width:600px;margin:auto}
 
