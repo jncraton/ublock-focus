@@ -49,10 +49,6 @@ google.com#$##main{ margin-top:-75px }
 
 !Wikipedia simplifications
 
-!Hide all but body content on desktop
-en.wikipedia.org##body > :not(#content)
-en.wikipedia.org##body > #content > :not(#bodyContent)
-
 !Don't load site logos
 ||en.wikipedia.org/static/images/
 
