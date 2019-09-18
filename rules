@@ -61,29 +61,6 @@ wikipedia.org##.ambox
 wikipedia.org##.post-content 
 wikipedia.org##.footer-content
 wikipedia.org##.last-modifier-tagline
-
-!Hide top subtitles
-wikipedia.org###siteSub
-wikipedia.org###contentSub
-
-!Hide edit links
-wikipedia.org##.mw-editsection
-wikipedia.org###page-actions
-wikipedia.org###edit-page
-
-!TOC
-wikipedia.org##.toctogglespan
-
-!No link styles
-wikipedia.org#$##content a{color:inherit !important}
-
-!No backgrounds or borders
-wikipedia.org#$#*{border:0px !important;background:none !important}
-
-!Hide bottom nav and categories
-wikipedia.org##.navbox
-wikipedia.org##.vertical-navbox
-wikipedia.org###catlinks
  
 !Tighter text NPR layout
 text.npr.org#$#body {max-width:600px;margin:auto}
