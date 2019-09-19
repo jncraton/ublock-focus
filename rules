@@ -99,6 +99,8 @@ www.wunderground.com##.region-footer
 ||youtube.com^|$document
 ||facebook.com^|$document
 ||github.com^|$document
+||teamliquid.net^|$document
+||brickset.com^|$document
 !||reddit.com^|$document
 !||reddit.com/r/spacex$document
 !||reddit.com/r/churning$document
@@ -116,9 +118,7 @@ www.wunderground.com##.region-footer
 @@||reddit.com/r/*/comments$document
 !||news.ycombinator.com^|$document
 !||news.ycombinator.com/news^|$document
-!||teamliquid.net^|$document
 !||reuters.com^|$document
-!||brickset.com^|$document
 
 !Time wasting sites
 !bitcoinity.org
