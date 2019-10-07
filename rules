@@ -145,6 +145,10 @@ graphviz.readthedocs.io##.rtd-pro
 !For some reason ublock isn't blocking these autoplaying ads for me
 cdn.playwire.com
 
+!Clean up newegg
+newegg.com###heroModule
+newegg.com##.row-side-banners
+
 !Clean up Peoplesoft a little
 !More vertical whitespace
 psprd.anderson.edu##*:style(line-height:2em)
