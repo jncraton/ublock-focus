@@ -149,6 +149,11 @@ cdn.playwire.com
 newegg.com###heroModule
 newegg.com##.row-side-banners
 
+!Clean up Amazon
+||amazon.com^|$document
+amazon.com###rhf
+amazon.com##.w-recs
+
 !Clean up Peoplesoft a little
 !More vertical whitespace
 psprd.anderson.edu##*:style(line-height:2em)
