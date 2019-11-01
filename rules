@@ -135,6 +135,8 @@ www.wunderground.com##.region-footer
 ###promo-box
 ##.bottom-share-links
 ###feed-link
+www.gravatar.com
+##.user-gravatar32
 
 !Background color fix for online Word documents
 office.com,live.com,dropbox.com##.WordLastSectionBackground:style(background-color: white !important)
