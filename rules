@@ -68,6 +68,13 @@ wikipedia.org##.last-modifier-tagline
  
 !Tighter text NPR layout
 text.npr.org#$#body {max-width:600px;margin:auto}
+text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
+text.npr.org#$#a {color:#379;text-decoration:none;}
+!Hide extra elements
+text.npr.org##body > p:nth-of-type(1)
+text.npr.org##body > p:nth-of-type(2)
+text.npr.org##body > p:last-of-type
+text.npr.org##body > ul:last-of-type
 
 duckduckgo.com##.header__search-wrap
 duckduckgo.com##.footer
