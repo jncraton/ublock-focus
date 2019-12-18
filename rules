@@ -104,29 +104,34 @@ www.wunderground.com##.region-footer
 
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
-||youtube.com^|$document
-||facebook.com^|$document
-||github.com^|$document
-||teamliquid.net^|$document
-||brickset.com^|$document
-!||reddit.com^|$document
-!||reddit.com/r/spacex$document
-!||reddit.com/r/churning$document
-!||reddit.com/r/funny$document
-!||reddit.com/r/bitcoin$document
-!||reddit.com/r/btc$document
-!||reddit.com/r/finance$document
-!||reddit.com/r/investing$document
-!||reddit.com/r/politics$document
-!||reddit.com/r/news$document
-!||reddit.com/r/worldnews$document
-!||reddit.com/r/broodwar$document
-!||reddit.com/r/lego$document
-!||reddit.com/r/programming$document
-@@||reddit.com/r/*/comments$document
+|https://youtube.com/|$document
+|https://facebook.com/|$document
+|https://github.com/|$document
+|https://teamliquid.net/|$document
+|https://tl.net/|$document
+|https://brickset.com/|$document
+|*reddit.com^|$document
+|*reddit.com/r/spacex^|$document
+|*reddit.com/r/churning^|$document
+|*reddit.com/r/funny^|$document
+|*reddit.com/r/bitcoin^|$document
+|*reddit.com/r/btc^|$document
+|*reddit.com/r/finance^|$document
+|*reddit.com/r/investing^|$document
+|*reddit.com/r/politics^|$document
+|*reddit.com/r/news^|$document
+|*reddit.com/r/worldnews^|$document
+|*reddit.com/r/broodwar^|$document
+|*reddit.com/r/lego^|$document
+|*reddit.com/r/programming^|$document
 !||news.ycombinator.com^|$document
 !||news.ycombinator.com/news^|$document
-!||reuters.com^|$document
+
+|https://www.cnn.com/|$document
+|https://www.msnbc.com/|$document
+|https://www.foxnews.com/|$document
+|https://www.npr.org/|$document
+|https://reuters.com/|$document
 
 !Time wasting sites
 !bitcoinity.org
