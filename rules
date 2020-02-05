@@ -101,19 +101,6 @@ stackoverflow.com###sidebar
 stackoverflow.com##.bottom-notice
 stackoverflow.com##.s-notice
 
-!HC Header removal (it's just super big)
-houghton.edu###header_wrap
-houghton.edu##.header
-houghton.edu##.footer-new-wrap
-houghton.edu###breadcrumbs
-houghton.edu##.p-sidebar
-
-!WU simplifications
-www.wunderground.com##.region-favorites-bar
-www.wunderground.com##.region-footer
-||$image,domain=www.wunderground.com
-||$script,domain=www.wunderground.com
-
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
 |https://youtube.com/|$document
@@ -145,13 +132,6 @@ www.wunderground.com##.region-footer
 |https://www.npr.org/|$document
 |https://reuters.com/|$document
 
-!Time wasting sites
-!bitcoinity.org
-!finance.google.com
-!finance.yahoo.com
-!news.google.com
-!gdax.com
-
 !SE hot and related questions
 !These are in place on all sites since there are many SE sites
 ##.sidebar-related
@@ -162,15 +142,6 @@ www.wunderground.com##.region-footer
 ###feed-link
 www.gravatar.com
 ##.user-gravatar32
-
-!Background color fix for online Word documents
-office.com,live.com,dropbox.com##.WordLastSectionBackground:style(background-color: white !important)
-
-! 3/8/2018, 8:34:28 AM https://graphviz.readthedocs.io/en/stable/api.html
-graphviz.readthedocs.io##.rtd-pro
-
-!For some reason ublock isn't blocking these autoplaying ads for me
-cdn.playwire.com
 
 !Clean up newegg
 newegg.com###heroModule
