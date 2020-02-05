@@ -89,6 +89,18 @@ duckduckgo.com##.footer
 
 ||icons.duckduckgo.com$important
 
+duckduckgo.com###header_wrapper
+duckduckgo.com##.feedback-prompt
+duckduckgo.com##.js-feedback-btn-wrap
+
+stackoverflow.com##.top-bar
+stackoverflow.com###js-gdpr-consent-banner
+stackoverflow.com##footer
+stackoverflow.com###left-sidebar
+stackoverflow.com###sidebar
+stackoverflow.com##.bottom-notice
+stackoverflow.com##.s-notice
+
 !HC Header removal (it's just super big)
 houghton.edu###header_wrap
 houghton.edu##.header
