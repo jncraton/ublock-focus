@@ -131,6 +131,8 @@ stackoverflow.com##.s-notice
 |https://www.foxnews.com/|$document
 |https://www.npr.org/|$document
 |https://reuters.com/|$document
+realclearpolitics.com/|$document
+fivethirtyeight.com/|$document
 
 !SE hot and related questions
 !These are in place on all sites since there are many SE sites
