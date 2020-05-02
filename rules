@@ -77,6 +77,20 @@ text.npr.org##body > p:nth-of-type(2)
 text.npr.org##body > p:last-of-type
 text.npr.org##body > ul:last-of-type
 
+!ebay
+!item history
+ebay.com##.srp-merch__items-list
+ebay.com##.srp-merch__items-title
+!search area
+ebay.com###gh-logo
+ebay.com##.srp-related-searches
+!top nav
+ebay.com##.gh-divider-l
+ebay.com###gh-doodleS
+!bottom
+ebay.com##.srp-survey
+ebay.com##.x-footer
+
 duckduckgo.com##.header__search-wrap
 duckduckgo.com##.footer
 
