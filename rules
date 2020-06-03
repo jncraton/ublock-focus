@@ -2,6 +2,7 @@
 ||$image,domain=pandora.com
 ||$image,domain=reddit.com
 ||$image,domain=news.ycombinator.com
+||$image,domain=lobste.rs
 
 !Faster scriptless reddit
 ||$script,domain=reddit.com
