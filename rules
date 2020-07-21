@@ -8,7 +8,9 @@
 ||$script,domain=reddit.com
 ||$script,domain=news.ycombinator.com
 
+!Limit HN and lobste.rs to 10 stories
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
+lobste.rs##.stories li:nth-child(n + 11)
 
 !facebook.com##img
 facebook.com##video
