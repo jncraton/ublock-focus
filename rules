@@ -8,6 +8,8 @@
 ||$script,domain=reddit.com
 ||$script,domain=news.ycombinator.com
 
+news.ycombinator.com##.itemlist tr:nth-child(n+30)
+
 !facebook.com##img
 facebook.com##video
 facebook.com###pagelet_sidebar
