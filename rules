@@ -71,7 +71,18 @@ wikipedia.org##.ambox
 wikipedia.org##.post-content 
 wikipedia.org##.footer-content
 wikipedia.org##.last-modifier-tagline
- 
+  
+!Lighter news sites
+||$image,domain=indystar.com
+||$script,domain=indystar.com
+||$font,domain=indystar.com
+||$image,domain=heraldbulletin.com
+||$script,domain=heraldbulletin.com
+||$font,domain=heraldbulletin.com
+||$image,domain=aljazeera.com
+||$script,domain=aljazeera.com
+||$font,domain=aljazeera.com
+
 !Tighter text NPR layout
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
