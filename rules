@@ -93,6 +93,21 @@ text.npr.org##body > p:nth-of-type(2)
 text.npr.org##body > p:last-of-type
 text.npr.org##body > ul:last-of-type
 
+!Less busy Indy Star
+indystar.com##header
+indystar.com##footer
+indystar.com##form
+indystar.com##[aria-label="Opinion"]
+indystar.com##[aria-label="Opinion"] + *
+indystar.com##[aria-label="Things To Do"]
+indystar.com##[aria-label="Things To Do"] + *
+indystar.com##[aria-label="Sports"]
+indystar.com##[aria-label="Sports"] + *
+indystar.com##[aria-label="Featured Gallery"]
+indystar.com##[aria-label="Featured Gallery"] + *
+indystar.com##[aria-label="In Other News"]
+indystar.com##[aria-label="In Other News"] + *
+
 !ebay
 !item history
 ebay.com##.srp-merch__items-list
