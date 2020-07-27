@@ -83,7 +83,6 @@ wikipedia.org##.last-modifier-tagline
 ||$script,domain=aljazeera.com
 ||$font,domain=aljazeera.com
 
-!Tighter text NPR layout
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
@@ -93,7 +92,6 @@ text.npr.org##body > p:nth-of-type(2)
 text.npr.org##body > p:last-of-type
 text.npr.org##body > ul:last-of-type
 
-!Less busy Indy Star
 indystar.com##header
 indystar.com##footer
 indystar.com##form
@@ -107,6 +105,11 @@ indystar.com##[aria-label="Featured Gallery"]
 indystar.com##[aria-label="Featured Gallery"] + *
 indystar.com##[aria-label="In Other News"]
 indystar.com##[aria-label="In Other News"] + *
+
+heraldbulletin.com###site-navbar-container
+heraldbulletin.com###site-header-container
+heraldbulletin.com###site-footer-container
+heraldbulletin.com##header
 
 !ebay
 !item history
