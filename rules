@@ -83,6 +83,8 @@ wikipedia.org##.last-modifier-tagline
 ||$script,domain=aljazeera.com
 ||$font,domain=aljazeera.com
 
+aljazeera.com##figure
+
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
