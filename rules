@@ -3,6 +3,7 @@
 ||$image,domain=reddit.com
 ||$image,domain=news.ycombinator.com
 ||$image,domain=lobste.rs
+||$image,domain=kiva.org
 
 !Faster scriptless reddit
 ||$script,domain=reddit.com
