@@ -114,6 +114,12 @@ heraldbulletin.com###site-header-container
 heraldbulletin.com###site-footer-container
 heraldbulletin.com##header
 
+insidehighered.com###header
+insidehighered.com##footer
+||$image,domain=insidehighered.com
+||$script,domain=insidehighered.com
+||$font,domain=insidehighered.com
+
 !ebay
 !item history
 ebay.com##.srp-merch__items-list
