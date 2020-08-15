@@ -83,6 +83,15 @@ wikipedia.org##.last-modifier-tagline
 ||$image,domain=aljazeera.com
 ||$script,domain=aljazeera.com
 ||$font,domain=aljazeera.com
+||$image,domain=foxnews.com
+||$script,domain=foxnews.com
+||$font,domain=foxnews.com
+||$image,domain=msnbc.com
+||$script,domain=msnbc.com
+||$font,domain=msnbc.com
+||$image,domain=cnn.com
+||$font,domain=cnn.com
+
 
 aljazeera.com##figure
 
