@@ -221,6 +221,15 @@ newegg.com##.row-side-banners
 amazon.com###rhf
 amazon.com##.w-recs
 
+!Clean up Wolfram Alpha
+wolframalpha.com##main>a
+wolframalpha.com##a>img
+wolframalpha.com##a>svg
+wolframalpha.com##:not(section) > header
+wolframalpha.com##footer
+wolframalpha.com##footer + section
+wolframalpha.com##a[target="_blank"]
+
 !Clean up Peoplesoft a little
 !More vertical whitespace
 psprd.anderson.edu##*:style(line-height:2em)
