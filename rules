@@ -159,12 +159,12 @@ stackoverflow.com##.s-notice
 
 !Time wasting landing page blocks
 !Specific pages are still accessible, just not the root
-|https://youtube.com/|$document
-|https://facebook.com/|$document
-|https://github.com/|$document
-|https://teamliquid.net/|$document
-|https://tl.net/|$document
-|https://brickset.com/|$document
+|*youtube.com/|$document
+|*facebook.com/|$document
+|*github.com/|$document
+|*teamliquid.net/|$document
+|*tl.net/|$document
+|*brickset.com/|$document
 |*reddit.com^|$document
 |*reddit.com/r/spacex^|$document
 |*reddit.com/r/churning^|$document
