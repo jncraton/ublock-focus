@@ -7,8 +7,8 @@
 ||teddit.net^$image
 
 !Faster scriptless reddit
-||$script,domain=reddit.com
-||$script,domain=news.ycombinator.com
+||reddit.com^$script
+||news.ycombinator.com^$script
 
 !Limit HN and lobste.rs to 10 stories
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
@@ -23,9 +23,11 @@ facebook.com##.home_right_column
 ! News feed content
 facebook.com##.userContentWrapper
 
-||$image,domain=biblegateway.com
-||$script,domain=biblegateway.com
-||$font,domain=biblegateway.com
+
+||bgcdn.com^$image
+||biblegateway.com^$image
+||biblegateway.com^$script
+||biblegateway.com^$font
 biblegateway.com##.passage-resources
 biblegateway.com##.sys-announce-wrapper
 biblegateway.com##.sidebar-wrap
