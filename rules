@@ -50,6 +50,7 @@ youtube.com###subscribe-button
 youtube.com##img
 youtube.com###secondary
 youtube.com##.ytd-watch-next-secondary-results-renderer
+youtube.com###always-shown
 
 !Google distaction removal
 google.com###searchform
