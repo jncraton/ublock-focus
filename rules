@@ -23,15 +23,26 @@ facebook.com##.home_right_column
 ! News feed content
 facebook.com##.userContentWrapper
 
-
 ||bgcdn.com^$image
 ||biblegateway.com^$image
 ||biblegateway.com^$script
 ||biblegateway.com^$font
+biblegateway.com##nav
+biblegateway.com##.parallel
+biblegateway.com##.top-bar
+biblegateway.com##.float-header
+biblegateway.com##.audio-link
+biblegateway.com##.settings
+biblegateway.com##.share
+biblegateway.com##.print
+biblegateway.com##.dropdowns
+biblegateway.com##.other-resources
 biblegateway.com##.sys-announce-wrapper
+biblegateway.com##.sys-announce
 biblegateway.com##.sidebar-wrap
 biblegateway.com##header
 biblegateway.com##.search-section
+biblegateway.com##.copyright-table
 biblegateway.com##footer
 biblegateway.com##.passage-bar
 biblegateway.com##.passage-tools2
