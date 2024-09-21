@@ -99,6 +99,13 @@ wikipedia.org##.last-modifier-tagline
 ||$font,domain=aljazeera.com
 aljazeera.com##figure
 
+||axios.com^$image
+||axios.com^$script
+||axios.com^$font
+axios.com##nav
+axios.com##footer
+axios.com##[data-cy=go-deeper-items]
+
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
