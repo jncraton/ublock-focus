@@ -112,6 +112,18 @@ axios.com##[data-cy=go-deeper-items]
 ||apnews.com^$font
 ||apnews.com^$subdocument
 
+||reuters.com^$image
+||reuters.com^$script
+||reuters.com^$font
+reuters.com##[data-testid="LeaderboardSpace"]
+reuters.com##[data-testid="RefinitivPromoBar"]
+reuters.com##[data-testid="HomeTickerV2"]
+reuters.com##[data-testid="primary-video"]
+reuters.com##[data-testid="Image"]
+reuters.com##[data-testid="PhotoCredit"]
+reuters.com##.image
+reuters.com##footer
+
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
