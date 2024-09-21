@@ -106,6 +106,12 @@ axios.com##nav
 axios.com##footer
 axios.com##[data-cy=go-deeper-items]
 
+||apnews.com^$image
+||apnews.com^$script
+||apnews.com^$script,$third-party
+||apnews.com^$font
+||apnews.com^$subdocument
+
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
