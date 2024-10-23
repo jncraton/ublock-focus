@@ -14,6 +14,10 @@
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
 lobste.rs##.stories li:nth-child(n + 11)
 
+!Hide GH avatars
+github.com##.avatar
+github.com##[data-component=Avatar]
+
 !facebook.com##img
 facebook.com##video
 facebook.com###pagelet_sidebar
