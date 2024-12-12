@@ -102,6 +102,9 @@ wikipedia.org##.last-modifier-tagline
 ||$script,domain=aljazeera.com
 ||$font,domain=aljazeera.com
 aljazeera.com##figure
+||newsmemory.com^$script
+||townnews.com^$script
+||heraldbulletin.com^$script
 
 ||axios.com^$image
 ||axios.com^$script
