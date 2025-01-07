@@ -72,6 +72,13 @@ google.com###extrares
 google.com###footcnt
 google.com#$##main{ margin-top:-75px }
 
+!google finance distraction removal
+google.com##section[aria-labelledby="news-title"]
+google.com##section[aria-labelledby="todays-tickers-heading"]
+google.com##section[aria-labelledby="discover-more-heading"]
+google.com##section[aria-labelledby="smart-watchlist-title"]
+google.com##section[aria-labelledby="most-folowed-header"]
+
 !Wikipedia simplifications
 
 !Hide sidebar and header
