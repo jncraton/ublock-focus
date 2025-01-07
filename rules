@@ -17,6 +17,7 @@ lobste.rs##.stories li:nth-child(n + 11)
 !Hide GH avatars
 github.com##.avatar
 github.com##[data-component=Avatar]
+github.com##.feed-right-sidebar
 
 !facebook.com##img
 facebook.com##video
@@ -214,7 +215,6 @@ stackoverflow.com##.s-notice
 !Specific pages are still accessible, just not the root
 |*youtube.com/|$document
 |*facebook.com/|$document
-|*github.com/|$document
 |*teamliquid.net/|$document
 |*tl.net/|$document
 |*brickset.com/|$document
