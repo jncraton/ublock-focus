@@ -8,6 +8,27 @@
 
 !Faster scriptless reddit
 ||reddit.com^$script
+||redditstatic.com^$stylesheet,script
+||redditmedia.com^$stylesheet,script
+||redd.it^$stylesheet,script
+old.reddit.com###header
+old.reddit.com##.menuarea
+old.reddit.com##.footer-parent
+old.reddit.com###moresearchinfo
+old.reddit.com##.side
+old.reddit.com##.rank
+old.reddit.com##.score
+old.reddit.com##.buttons > li:not(:first-child)
+old.reddit.com##.flairrichtext
+old.reddit.com##.linkflairlabel
+old.reddit.com##.debuginfo
+old.reddit.com##.duration-overlay
+old.reddit.com##.tagline
+old.reddit.com##.thumbnail img:style(object-fit:contain; min-height:280px; min-width:280px !important)
+old.reddit.com##.entry:style(display:inline-block; min-height:220px; max-width:300px; vertical-align:top; margin-top:60px;padding-left:24px; !important)
+old.reddit.com##.thing:style(border-bottom: 1px solid #aaa; !important)
+
+
 ||news.ycombinator.com^$script
 
 !Limit HN and lobste.rs to 10 stories
