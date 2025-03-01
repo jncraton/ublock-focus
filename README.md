@@ -8,4 +8,4 @@ https://raw.githubusercontent.com/jncraton/ublock-focus/master/rules
 
 These rules can be used to force dark mode on sites that do not support it natively:
 
-https://raw.githubusercontent.com/jncraton/ublock-focus/master/rules
+https://raw.githubusercontent.com/jncraton/ublock-focus/master/dark
