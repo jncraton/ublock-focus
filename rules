@@ -111,6 +111,10 @@ google.com##section[aria-labelledby="discover-more-heading"]
 google.com##section[aria-labelledby="smart-watchlist-title"]
 google.com##section[aria-labelledby="most-folowed-header"]
 
+finviz.com###banner_position
+finviz.com##[data-fv-banner="true"]
+finviz.com##.footer
+
 !Wikipedia simplifications
 
 !Hide sidebar and header
