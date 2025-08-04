@@ -174,6 +174,21 @@ reuters.com##[data-testid="PhotoCredit"]
 reuters.com##.image
 reuters.com##footer
 
+||npr.org^$script
+||npr.org^$image
+||npr.org*font*$css
+||npr.brightspotcdn.com^$image
+npr.org##.image
+npr.org##header
+npr.org###npr-player
+npr.org###npr-footer
+npr.org##.recommended-stories
+||cookielaw.org$all,third-party,domain=npr.org
+||cdn.piano.io$all,third-party,domain=npr.org
+||cdn.optimizely.com$all,third-party,domain=npr.org
+||stripe.com$all,third-party,domain=npr.org
+||stripe.network$all,third-party,domain=npr.org
+
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
