@@ -242,6 +242,9 @@ ebay.com##.x-footer
 
 duckduckgo.com##.header__search-wrap
 duckduckgo.com##.footer
+||duckduckgo.com^$font
+duckduckgo.com##.related-searches
+duckduckgo.com##[data-testid="feedback-prompt"]
 
 ! Prevent many small images from loading on DuckDuckGo
 ||duckduckgo.com/assets/logo_header$important
