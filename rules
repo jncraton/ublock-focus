@@ -201,6 +201,11 @@ text.npr.org##header
 text.npr.org##footer
 text.npr.org##nav
 
+theguardian.com##body > :not(main)
+theguardian.com##main > :not(article)
+theguardian.com##[name=MostViewedRightWithAd]
+assets.guim.co.uk
+
 indystar.com##header
 indystar.com##footer
 indystar.com##form
