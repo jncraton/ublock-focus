@@ -170,9 +170,10 @@ axios.com##button
 axios.com##svg
 axios.com##img
 axios.com##figure
-axios.com#$#body {max-width:600px;margin:auto}
-axios.com#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
-axios.com#$#a {color:#379;text-decoration:none;}
+axios.com#$#body {max-width:600px;margin:auto;}
+axios.com#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;}
+axios.com#$#*:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff}
+axios.com#$#*:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000}
 axios.com#$#li {list-style:none;}
 axios.com##nav
 axios.com##footer
