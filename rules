@@ -1,7 +1,6 @@
 !Hide all images on sites where they aren't relevant
 ||pandora.com^$image
 ||reddit.com^$image
-||news.ycombinator.com^$image
 ||lobste.rs^$image
 ||pussthecat.org^$image
 ||teddit.net^$image
@@ -29,7 +28,19 @@ old.reddit.com##.thumbnail img:style(object-fit:contain; min-height:280px; min-w
 old.reddit.com##.thumbnail:style(width:280px !important)
 
 ||news.ycombinator.com^$script
-
+||news.ycombinator.com^$image
+news.ycombinator.com#$#td[indent="1"] {width:40px}
+news.ycombinator.com#$#td[indent="2"] {width:80px}
+news.ycombinator.com#$#td[indent="3"] {width:120px}
+news.ycombinator.com#$#td[indent="4"] {width:160px}
+news.ycombinator.com#$#td[indent="5"] {width:200px}
+news.ycombinator.com#$#td[indent="6"] {width:240px}
+news.ycombinator.com#$#td[indent="7"] {width:280px}
+news.ycombinator.com#$#td[indent="8"] {width:320px}
+news.ycombinator.com#$#td[indent="9"] {width:360px}
+news.ycombinator.com#$#td[indent="10"] {width:400px}
+news.ycombinator.com#$#td[indent="11"] {width:440px}
+news.ycombinator.com#$#td[indent="12"] {width:480px}
 !Limit HN and lobste.rs to 10 stories
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
 lobste.rs##.stories li:nth-child(n + 11)
