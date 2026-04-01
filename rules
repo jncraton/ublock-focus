@@ -203,6 +203,7 @@ npr.org##.recommended-stories
 text.npr.org#$#body {max-width:600px;margin:auto}
 text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
 text.npr.org#$#a {color:#379;text-decoration:none;}
+text.npr.org##*:matches-media((prefers-color-scheme: dark)):style(background: black !important; color: #eee !important;)
 !Hide extra elements
 text.npr.org##+js(rmnt, #text, Related story:)
 text.npr.org##.paragraphs-container > :not(p)
