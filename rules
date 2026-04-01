@@ -200,10 +200,10 @@ npr.org##.recommended-stories
 ||stripe.com$all,third-party,domain=npr.org
 ||stripe.network$all,third-party,domain=npr.org
 
-text.npr.org#$#body {max-width:600px;margin:auto}
-text.npr.org#$#body {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;color:#444;}
-text.npr.org#$#a {color:#379;text-decoration:none;}
-text.npr.org##*:matches-media((prefers-color-scheme: dark)):style(background: black !important; color: #eee !important;)
+text.npr.org#$#body {max-width:600px;margin:auto;}
+text.npr.org#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:20px;}
+text.npr.org#$#*:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff}
+text.npr.org#$#*:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000}
 !Hide extra elements
 text.npr.org##+js(rmnt, #text, Related story:)
 text.npr.org##.paragraphs-container > :not(p)
