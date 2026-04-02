@@ -1,3 +1,9 @@
+! Reader mode
+!
+! Create a semantic, high-contrast, single-column view optimized for readability
+!
+! Block all external scripts, styles, fonts, and media
+
 ||example.com^$image
 ||example.com^$script
 ||example.com^$font
