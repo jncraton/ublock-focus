@@ -10,14 +10,7 @@ example.com#$#body {max-width:600px !important;margin:0 auto !important;}
 example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff !important;}
 example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
 example.com#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6;font-size:16px;}
-example.com##header
-example.com##footer
+example.com####header, footer, nav, aside, script, noscript, button, svg, img, video, figure, figcaption, iframe, canvas, form, input, select, textarea, label:remove()
 example.com##link[rel='stylesheet']
 example.com##style
 example.com##script
-example.com##button
-example.com##svg
-example.com##img
-example.com##video
-example.com##iframe
-example.com##figure
