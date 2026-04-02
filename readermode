@@ -13,4 +13,6 @@ example.com##style
 example.com##button
 example.com##svg
 example.com##img
+example.com##video
+example.com##iframe
 example.com##figure
