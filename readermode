@@ -11,6 +11,4 @@ example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;back
 example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
 example.com#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6;font-size:16px;}
 example.com####header, footer, nav, aside, script, noscript, button, svg, img, video, figure, figcaption, iframe, canvas, form, input, select, textarea, label
-example.com##link[rel='stylesheet']
-example.com##style
-example.com##script
+example.com##script,style,link[rel='stylesheet']:remove()
