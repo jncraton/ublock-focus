@@ -5,7 +5,7 @@
 ! Block all external scripts, styles, fonts, and media
 
 
-||example.com^$image,script,font,css,subdocument,media,websocket,other
+||*^$domain=example.com,all,~document
 example.com#$#body {max-width:600px !important;margin:0 auto !important;}
 example.com#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:16px;height:min-content !important;}
 example.com#$#*:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff}
