@@ -14,6 +14,7 @@ example.com##header
 example.com##footer
 example.com##link[rel='stylesheet']
 example.com##style
+example.com##script
 example.com##button
 example.com##svg
 example.com##img
