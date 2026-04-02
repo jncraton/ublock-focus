@@ -11,4 +11,6 @@ example.com##*:remove-attr(/style|class|id|data-.*/)
 example.com##header, footer, nav, aside, script, noscript, button, svg, img, video, figure, figcaption, iframe, canvas, form, input, select, textarea, label
 example.com#$#body {max-width:600px !important;margin:0 auto !important;font-family:helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important;}
 example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff !important;}
+example.com#$#body a:matches-media((prefers-color-scheme: light)) {color:#03b;}
 example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
+example.com#$#body a:matches-media((prefers-color-scheme: dark)) {color:#68f;}
