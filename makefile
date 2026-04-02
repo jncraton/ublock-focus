@@ -1,4 +1,4 @@
 all: focus
 
-focus: rules
+focus: rules readermode
 	python3 update.py
