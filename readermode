@@ -6,6 +6,7 @@
 
 
 ||*^$domain=example.com,all,~document
+example.com##*:remove-attr(/style|class|id|data-.*/)
 example.com#$#body {max-width:600px !important;margin:0 auto !important;}
 example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff !important;}
 example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
