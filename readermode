@@ -7,8 +7,8 @@
 
 ||*^$domain=example.com,all,~document
 example.com#$#body {max-width:600px !important;margin:0 auto !important;}
-example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff}
-example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000}
+example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff !important;}
+example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
 example.com#$#* {font-family:helvetica,arial,sans-serif;line-height:1.6em;font-size:16px;height:min-content !important;background:unset !important;color:unset !important;}
 example.com##header
 example.com##footer
