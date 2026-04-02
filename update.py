@@ -5,6 +5,7 @@ readermode_sites = [
     'text.npr.org',
     'axios.com',
     'en.wikipedia.org',
+    'edu',
 ]
 
 for site in readermode_sites:
