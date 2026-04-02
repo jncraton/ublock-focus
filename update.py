@@ -2,7 +2,6 @@ rules_text = open("rules").read()
 readermode = open("readermode").read()
 
 readermode_sites = [
-    'text.npr.org',
     'axios.com',
     'cnn.com',
     'edu',
