@@ -42,6 +42,7 @@ news.ycombinator.com#$#td[indent="11"] {width:440px}
 news.ycombinator.com#$#td[indent="12"] {width:480px}
 news.ycombinator.com###bigbox td:not(:last-child,[indent]):remove()
 news.ycombinator.com#$#table {display:contents;}
+news.ycombinator.com#$#.titleline {font-size:1.25em;}
 
 !Limit HN and lobste.rs to 10 stories
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
