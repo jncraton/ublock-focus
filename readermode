@@ -7,7 +7,7 @@
 
 ||*^$domain=example.com,all,~document
 example.com##script,style,link[rel='stylesheet']:remove()
-example.com##*:remove-attr(/style|class|id|data-.*/)
+example.com##*:remove-attr(/style|bgcolor|class|id|data-.*/)
 example.com##header, footer, nav, aside, script, noscript, button, svg, img, video, figure, figcaption, iframe, canvas, form, input, select, textarea, label:remove()
 example.com##*:empty:remove()
 example.com#$#*:empty {display: none;}
