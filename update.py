@@ -1,4 +1,17 @@
-rules_text = open("rules").read()
+def strip(rules):
+    # strip blank lines and comment lines beginning with !
+    filtered_lines = []
+    for line in rules.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("!"):
+            continue
+        filtered_lines.append(line)
+
+    return "\n".join(filtered_lines) + "\n"
+
+rules = open("rules").read()
 readermode = open("readermode").read()
 
 readermode_sites = [
@@ -8,20 +21,10 @@ readermode_sites = [
     'edu',
 ]
 
+focus = rules
+
 for site in readermode_sites:
-    rules_text += "\n\n" + readermode.replace("example.com", site)
-
-# strip blank lines and comment lines beginning with !
-filtered_lines = []
-for line in rules_text.splitlines():
-    s = line.strip()
-    if not s:
-        continue
-    if s.startswith("!"):
-        continue
-    filtered_lines.append(line)
-
-output = "\n".join(filtered_lines) + "\n"
+    focus += "\n\n" + readermode.replace("example.com", site)
 
 with open("focus", "w") as f:
-    f.write(output)
+    f.write(strip(focus))
