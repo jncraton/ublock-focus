@@ -23,6 +23,7 @@ readermode_sites = [
     'indystar.com',
     'heraldbulletin.com',
     'bbc.com',
+    'biblegateway.com',
     'edu',
 ]
 
