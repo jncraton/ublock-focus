@@ -20,6 +20,8 @@ readermode_sites = [
     'apnews.com',
     'reuters.com',
     'news.ycombinator.com',
+    'indystar.com',
+    'heraldbulletin.com',
     'bbc.com',
     'edu',
 ]
