@@ -17,6 +17,7 @@ readermode = open("readermode").read()
 readermode_sites = [
     'axios.com',
     'cnn.com',
+    'apnews.com',
     'news.ycombinator.com',
     'edu',
 ]

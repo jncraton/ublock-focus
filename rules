@@ -187,6 +187,7 @@ axios.com##[data-cy=go-deeper-items]
 ||apnews.com^$script,$third-party
 ||apnews.com^$font
 ||apnews.com^$subdocument
+apnews.com##.Page-header-stickyWrap
 
 ||reuters.com^$image
 ||reuters.com^$script
