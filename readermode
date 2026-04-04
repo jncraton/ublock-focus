@@ -5,15 +5,17 @@
 ! Block all external scripts, styles, fonts, and media
 
 
-||*^$domain=example.com,all,~document
+||*^$domain=example.com,all,~document,~image,~media
 example.com##script,style,link[rel='stylesheet']:remove()
-example.com##*:remove-attr(/style|bgcolor|width|align|valign|border|cellpadding|cellspacing/)
-example.com##header, footer, nav, aside, script, noscript, button, svg, img, video, figure, figcaption, iframe, canvas, form, input, select, textarea, label:remove()
-example.com##:not(td,img,source,video,input,textarea):empty:remove()
-example.com#$#:not(td,img,source,video,input,textarea):empty {display: none;}
+example.com##*:remove-attr(/style|bgcolor|width|height|align|valign|border|cellpadding|cellspacing/)
+example.com##header, footer, nav, aside, script, noscript, svg, iframe, canvas:remove()
+example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
+example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
 example.com#$#body {max-width:600px !important;margin:0 auto !important;font-family:helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important;}
 example.com#$#blockquote, pre, table {border-left: 5px solid color-mix(in srgb, currentColor, transparent 84%) !important; padding: 1em !important; margin-left: 0px !important; background-color: color-mix(in srgb, currentColor, transparent 92%) !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important;}
+example.com#$#img, picture, video, figure {width: 100% !important;}
 example.com#$#pre {white-space: pre-wrap !important;}
+example.com#$#input,textarea,button {color: inherit !important; background-color: inherit !important; appearance:none !important; outline: none !important; border: 1px solid currentColor !important; border-radius: .5em !important; padding: .5em !important; resize: none !important;}
 example.com#$#body:matches-media((prefers-color-scheme: light)) {color:#222;background:#fff !important;}
 example.com#$#body a:matches-media((prefers-color-scheme: light)) {color:#03b;}
 example.com#$#body:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
