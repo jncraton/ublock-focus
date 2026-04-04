@@ -18,6 +18,7 @@ readermode_sites = [
     'axios.com',
     'cnn.com',
     'apnews.com',
+    'reuters.com',
     'news.ycombinator.com',
     'edu',
 ]
