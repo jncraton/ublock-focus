@@ -9,6 +9,7 @@
 example.com##script,style,link[rel='stylesheet']:remove()
 example.com##*:remove-attr(/style|bgcolor|width|height|align|valign|border|cellpadding|cellspacing|cols|rows/)
 example.com##header, footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
+example.com##:not(main, main *, :has(main)):remove()
 example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
 example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
 example.com#$#body {max-width:600px !important;margin:0 auto !important;font-family:helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important;}
