@@ -27,6 +27,7 @@ readermode_sites = [
     'edu',
     'wikipedia.org',
     'npr.org',
+    'theguardian.com',
 ]
 
 focus = rules

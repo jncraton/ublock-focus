@@ -213,11 +213,6 @@ reuters.com##[data-testid="PhotoCredit"]
 reuters.com##.image
 reuters.com##footer
 
-theguardian.com##body > :not(main)
-theguardian.com##main > :not(article)
-theguardian.com##[name=MostViewedRightWithAd]
-assets.guim.co.uk
-
 indystar.com##header
 indystar.com##footer
 indystar.com##form
