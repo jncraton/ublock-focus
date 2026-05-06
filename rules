@@ -135,6 +135,8 @@ finviz.com##.footer
 wikipedia.org###mw-panel
 wikipedia.org###mw-head
 
+wikipedia.org##.nomobile
+
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
 
