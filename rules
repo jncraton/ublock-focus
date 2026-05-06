@@ -135,7 +135,16 @@ finviz.com##.footer
 wikipedia.org###mw-panel
 wikipedia.org###mw-head
 
+!Hide extra content
 wikipedia.org##.nomobile
+wikipedia.org##.navbox
+wikipedia.org###catlinks
+
+!Hide lang list
+wikipedia.org##.vector-dropdown
+
+!Hide infobox lists
+wikipedia.org##.infobox tr:has(td:first-child:last-child,th:first-child:last-child)
 
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
