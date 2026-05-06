@@ -25,6 +25,7 @@ readermode_sites = [
     'bbc.com',
     'biblegateway.com',
     'edu',
+    'en.wikipedia.org',
 ]
 
 focus = rules
