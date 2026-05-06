@@ -8,7 +8,7 @@
 ||*^$domain=example.com,all,~document,important
 example.com##script,style,link[rel='stylesheet']:remove()
 example.com##*:remove-attr(/style|bgcolor|width|height|align|valign|border|cellpadding|cellspacing|cols|rows/)
-example.com##header, footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
+example.com##*:not(main)>header, *:not(main)>footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
 example.com##:not(main, main *, :has(main), #hnmain, #hnmain *, :has(#hnmain)):remove()
 example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
 example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
