@@ -21,3 +21,6 @@ example.com#$#html:matches-media((prefers-color-scheme: light)) {color:#222;back
 example.com#$#html a:matches-media((prefers-color-scheme: light)) {color:#03b;}
 example.com#$#html:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
 example.com#$#html a:matches-media((prefers-color-scheme: dark)) {color:#68f;}
+
+! Empty whitespace only nodes
+example.com##+js(rpnt, #text, /^\s+$/gm, "", 0)
