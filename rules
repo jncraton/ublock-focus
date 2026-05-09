@@ -11,6 +11,7 @@
 ||redditmedia.com^$script
 ||redd.it^$script
 old.reddit.com###header
+old.reddit.com##.infobar
 old.reddit.com##.menuarea
 old.reddit.com##.footer-parent
 old.reddit.com###moresearchinfo
