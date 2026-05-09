@@ -5,18 +5,42 @@
 ! Block all external scripts, styles, fonts, and media
 
 
+! Block requests originating from pages on this domain, except the root document
 ||*^$domain=example.com,all,~document,important
+
+! Remove all script, style and link elements
 example.com##script,style,link[rel='stylesheet']:remove()
+
+! Remove attributes that could adjust element style
 example.com##*:remove-attr(/style|bgcolor|width|height|align|valign|border|cellpadding|cellspacing|cols|rows/)
-example.com##*:not(main)>header, *:not(main)>footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
+
+! If the page uses a semantic main element
+! remove all element that are not ancestors or decendants of it
 example.com##body:has(main) *:not(main, main *, :has(main)):remove()
+
+! Remove media element and ancillary semantic elements
+example.com##*:not(main)>header, *:not(main)>footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
+
+! Remove empty elements to prevent them consuming extra space
 example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
 example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
+
+! Set default body styles
 example.com#$#body {max-width:720px !important;margin:0 auto !important;font-family:helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important; overflow-wrap:anywhere !important;}
+
+! Set default quote and table styles
 example.com#$#blockquote, pre, table {border-left: 5px solid color-mix(in srgb, currentColor, transparent 84%) !important; padding: 1em !important; margin-left: 0px !important; background-color: color-mix(in srgb, currentColor, transparent 92%) !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important;}
+
+! Set media and textareas to full width
 example.com#$#img, picture, video, figure, textarea {width: 100% !important;}
+
+! Wrap pre elements to prevent horiz scrolling
 example.com#$#pre {white-space: pre-wrap !important;}
+
+! Set form element styles
 example.com#$#input,textarea,button {color: inherit !important; background-color: inherit !important; appearance:none !important; outline: none !important; border: 1px solid currentColor !important; border-radius: .5em !important; padding: .5em !important; resize: none !important;}
+
+! Set light and dark mode colors
 example.com#$#html:matches-media((prefers-color-scheme: light)) {color:#333;background:#fff !important;}
 example.com#$#html a:matches-media((prefers-color-scheme: light)) {color:#03b;}
 example.com#$#html:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
