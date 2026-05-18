@@ -30,6 +30,7 @@ old.reddit.com##.thumbnail img:style(object-fit:contain; min-height:280px; min-w
 old.reddit.com##.thumbnail:style(width:280px !important)
 old.reddit.com##.child:style(margin-left: 2em !important)
 old.reddit.com##.usertext-edit
+old.reddit.com##.c-close
 
 !Manually supply indent cell width on HN removed by readermode
 news.ycombinator.com#$#td[indent="1"] {width:20px}
