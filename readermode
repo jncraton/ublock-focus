@@ -41,7 +41,7 @@ example.com#$#pre {white-space: pre-wrap !important;}
 example.com#$#input,textarea,button {color: inherit !important; background-color: inherit !important; appearance:none !important; outline: none !important; border: 1px solid currentColor !important; border-radius: .5em !important; padding: .5em !important; resize: none !important;}
 
 ! Set table styles
-example.com#$#td,th {min-width: 4em !important; padding-right: 0.5em !important; text-align: left; !important; overflow-wrap: normal !important;}
+example.com#$#td,th {min-width: 6em !important; padding-right: 2em !important; text-align: left; !important; overflow-wrap: normal !important;}
 
 ! Set light and dark mode colors
 example.com#$#html:matches-media((prefers-color-scheme: light)) {color:#333;background:#fff !important;}
