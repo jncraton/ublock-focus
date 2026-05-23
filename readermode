@@ -52,3 +52,4 @@ example.com##+js(rpnt, #text, /^\s+$/gm, "", 0)
 
 ! Hide certain visual and nav elements
 example.com##.Carousel-slides,bsp-page-actions,bsp-list-loadmore
+example.com##form,button,input,textarea,select

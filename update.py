@@ -29,6 +29,7 @@ readermode_sites = [
     'npr.org',
     'theguardian.com',
     'old.reddit.com',
+    'html.duckduckgo.com',
 ]
 
 focus = rules
