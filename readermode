@@ -30,6 +30,7 @@ example.com#$#body {max-width:720px !important;margin:0 auto !important;font-fam
 
 ! Set default quote and table styles
 example.com#$#blockquote, pre, table {border-left: 5px solid color-mix(in srgb, currentColor, transparent 84%) !important; padding: 1em !important; margin-left: 0px !important; background-color: color-mix(in srgb, currentColor, transparent 92%) !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important; border-spacing: 0.5em !important;}
+example.com#$#td,th {text-align: left; !important; overflow-wrap: normal !important;}
 
 ! Set media and textareas to full width
 example.com#$#img, picture, video, figure, textarea {width: 100% !important;}
@@ -39,9 +40,6 @@ example.com#$#pre {white-space: pre-wrap !important;}
 
 ! Set form element styles
 example.com#$#input,textarea,button {color: inherit !important; background-color: inherit !important; appearance:none !important; outline: none !important; border: 1px solid currentColor !important; border-radius: .5em !important; padding: .5em !important; resize: none !important;}
-
-! Set table styles
-example.com#$#td,th {text-align: left; !important; overflow-wrap: normal !important;}
 
 ! Set light and dark mode colors
 example.com#$#html:matches-media((prefers-color-scheme: light)) {color:#333;background:#fff !important;}
