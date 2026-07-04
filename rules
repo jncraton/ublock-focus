@@ -285,25 +285,6 @@ stackoverflow.com###sidebar
 stackoverflow.com##.bottom-notice
 stackoverflow.com##.s-notice
 
-!Time wasting landing page blocks
-!Specific pages are still accessible, just not the root
-|*youtube.com/|$document
-|*facebook.com/|$document
-|*teamliquid.net/|$document
-|*tl.net/|$document
-|*brickset.com/|$document
-|*reddit.com^|$document
-|*reddit.com/r/spacex^|$document
-|*reddit.com/r/churning^|$document
-|*reddit.com/r/funny^|$document
-|*reddit.com/r/bitcoin^|$document
-|*reddit.com/r/btc^|$document
-|*reddit.com/r/finance^|$document
-|*reddit.com/r/investing^|$document
-|*reddit.com/r/politics^|$document
-|*reddit.com/r/broodwar^|$document
-|*reddit.com/r/lego^|$document
-
 !SE hot and related questions
 !These are in place on all sites since there are many SE sites
 ##.sidebar-related
