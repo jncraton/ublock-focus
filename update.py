@@ -32,6 +32,7 @@ readermode_sites = [
     'html.duckduckgo.com',
     'apple.com',
     'nytimes.com',
+    'wsj.com',
 ]
 
 focus = rules
