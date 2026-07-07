@@ -33,6 +33,7 @@ readermode_sites = [
     'apple.com',
     'nytimes.com',
     'wsj.com',
+    'theverge.com',
 ]
 
 focus = rules
