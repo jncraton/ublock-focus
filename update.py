@@ -56,6 +56,7 @@ readermode_sites = [
     "sciencedaily.com",
     "space.com",
     "nbcnews.com",
+    "abcnews.com",
 ]
 
 focus = rules
