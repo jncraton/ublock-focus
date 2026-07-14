@@ -15,7 +15,7 @@ example.com##script,style,link[rel='stylesheet']:remove()
 example.com##*:remove-attr(/^(style|bgcolor|width|height|align|valign|border|cellpadding|cellspacing|cols|rows)$/)
 
 ! If the page uses a semantic main element
-! remove all element that are not ancestors or decendants of it
+! remove all elements that are not ancestors or decendants of it
 example.com##body:has(main) *:not(main, main *, :has(main)):remove()
 
 ! Remove media element and ancillary semantic elements
