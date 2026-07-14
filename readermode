@@ -18,7 +18,7 @@ example.com##*:remove-attr(/^(style|bgcolor|width|height|align|valign|border|cel
 ! remove all elements that are not ancestors or decendants of it
 example.com##body:has(main) *:not(main, main *, :has(main)):remove()
 
-! Remove media element and ancillary semantic elements
+! Remove media elements and ancillary semantic elements
 example.com##*:not(main)>header, *:not(main)>footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
 
 ! Remove empty elements to prevent them consuming extra space
