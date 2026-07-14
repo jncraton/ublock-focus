@@ -32,6 +32,8 @@ old.reddit.com##.child:style(margin-left: 2em !important)
 old.reddit.com##.usertext-edit
 old.reddit.com##.c-close
 
+news.ycombinator.com##.hnname
+
 !Manually supply indent cell width on HN removed by readermode
 news.ycombinator.com#$#td[indent="1"] {width:20px}
 news.ycombinator.com#$#td[indent="2"] {width:40px}
