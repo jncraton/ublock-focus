@@ -11,6 +11,7 @@ def strip(rules):
 
     return "\n".join(filtered_lines) + "\n"
 
+
 rules = open("rules").read()
 readermode = open("readermode").read()
 
@@ -65,7 +66,9 @@ for site in readermode_sites:
 with open("focus", "w") as f:
     f.write(strip(focus))
 
-universal_readermode = rules + "\n\n" + readermode.replace("example.com", "*").replace("domain=*,", "")
+universal_readermode = (
+    rules + "\n\n" + readermode.replace("example.com", "*").replace("domain=*,", "")
+)
 
 with open("universal-readermode", "w") as f:
     f.write(strip(universal_readermode))
