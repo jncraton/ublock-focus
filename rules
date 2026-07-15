@@ -319,3 +319,14 @@ wolframalpha.com##:not(section) > header
 wolframalpha.com##footer
 wolframalpha.com##footer + section
 wolframalpha.com##a[target="_blank"]
+
+hymnary.org###skip-link
+hymnary.org##.region-beforeheader
+hymnary.org###header
+hymnary.org###header-bar
+hymnary.org###sidr
+hymnary.org##table
+hymnary.org###blockbanner
+hymnary.org###mobile-user-links
+hymnary.org###authority_toc_container
+hymnary.org##.authority_section:not(:first-child)
