@@ -330,3 +330,7 @@ hymnary.org###blockbanner
 hymnary.org###mobile-user-links
 hymnary.org###authority_toc_container
 hymnary.org##.authority_section:not(:first-child)
+hymnary.org###authority_above_fold
+hymnary.org###footer
+hymnary.org##.authority_bottom_bar
+hymnary.org###block-hymnary-feedback
