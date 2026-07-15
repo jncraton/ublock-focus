@@ -59,6 +59,7 @@ readermode_sites = [
     "abcnews.com",
     "ccel.org",
     "hymnary.org",
+    "html.duckduckgo.com",
 ]
 
 focus = rules
