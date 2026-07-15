@@ -57,6 +57,8 @@ readermode_sites = [
     "space.com",
     "nbcnews.com",
     "abcnews.com",
+    "ccel.org",
+    "hymnary.org",
 ]
 
 focus = rules
