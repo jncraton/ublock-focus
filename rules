@@ -31,6 +31,8 @@ old.reddit.com##.thumbnail:style(width:280px !important)
 old.reddit.com##.child:style(margin-left: 2em !important)
 old.reddit.com##.usertext-edit
 old.reddit.com##.c-close
+old.reddit.com##.buttons {list-style:none;}
+old.reddit.com##.listing-chooser
 
 news.ycombinator.com##.hnname
 
