@@ -38,6 +38,9 @@ example.com##:not(li) ul:has(> :only-child) {list-style: none;}
 ! Remove left padding from single-level lists within tables
 example.com##table :not(li) ul {padding-left:0; list-style:circle;}
 
+! Remove margin from all lists within tables
+example.com##table ul, table ol {margin: 0;}
+
 ! Set media and textareas to full width
 example.com#$#img, picture, video, figure, textarea {width: 100% !important;}
 
