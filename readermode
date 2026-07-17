@@ -32,6 +32,12 @@ example.com#$#body {max-width:720px !important;margin:0 auto !important;font-fam
 example.com#$#blockquote, pre, table {border-left: 5px solid #aaa !important; padding-inline: 1em !important; margin-left: 0px !important; margin-block: 1em !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important; border-spacing: 0.5em !important;}
 example.com#$#td,th {text-align: left; !important; vertical-align: top !important; overflow-wrap: normal !important;}
 
+! Remove list item formatting from single-element unordered lists
+example.com##:not(li) ul:has(> :only-child) {list-style: none;}
+
+! Remove left padding from single-level lists within tables
+example.com##table :not(li) ul {padding-left:0;}
+
 ! Set media and textareas to full width
 example.com#$#img, picture, video, figure, textarea {width: 100% !important;}
 
