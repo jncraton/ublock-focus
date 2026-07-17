@@ -36,7 +36,7 @@ example.com#$#td,th {text-align: left; !important; vertical-align: top !importan
 example.com##:not(li) ul:has(> :only-child) {list-style: none;}
 
 ! Remove left padding from single-level lists within tables
-example.com##table :not(li) ul {padding-left:0;}
+example.com##table :not(li) ul {padding-left:0; list-style:circle;}
 
 ! Set media and textareas to full width
 example.com#$#img, picture, video, figure, textarea {width: 100% !important;}
