@@ -161,6 +161,9 @@ wikipedia.org##.vector-dropdown
 !Hide infobox lists
 wikipedia.org##.infobox tr:has(td:first-child:last-child,th:first-child:last-child)
 
+!Hide IPA
+wikipedia.org##.IPA
+
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
 
