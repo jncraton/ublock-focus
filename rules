@@ -72,15 +72,15 @@ facebook.com##.home_right_column
 facebook.com##.userContentWrapper
 
 ||licdn.com^$image
-www.linkedin.com##*[aria-label="LinkedIn News"]
-www.linkedin.com##*[aria-label="Side Bar"]
-www.linkedin.com##*[data-id*="jobPosting"]
-www.linkedin.com##*[data-id*="urn:li:company"]
-www.linkedin.com##*[data-id*="urn:li:member"]
-www.linkedin.com##*[data-id*="urn"] span:has-text(/Suggested/)
-www.linkedin.com##footer
-www.linkedin.com##div.premium-upsell-link
-www.linkedin.com##.update-components-image
+linkedin.com##*[aria-label="LinkedIn News"]
+linkedin.com##*[aria-label="Side Bar"]
+linkedin.com##*[data-id*="jobPosting"]
+linkedin.com##*[data-id*="urn:li:company"]
+linkedin.com##*[data-id*="urn:li:member"]
+linkedin.com##*[data-id*="urn"] span:has-text(/Suggested/)
+linkedin.com##footer
+linkedin.com##div.premium-upsell-link
+linkedin.com##.update-components-image
 linkedin.com##picture,video,figure
 linkedin.com##aside
 linkedin.com#$#div,section,a {aspect-ratio:unset !important;}
