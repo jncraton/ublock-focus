@@ -81,6 +81,10 @@ www.linkedin.com##*[data-id*="urn"] span:has-text(/Suggested/)
 www.linkedin.com##footer
 www.linkedin.com##div.premium-upsell-link
 www.linkedin.com##.update-components-image
+linkedin.com##picture,video,figure
+linkedin.com##aside
+linkedin.com#$#div,section,a {aspect-ratio:unset !important;}
+linkedin.com##svg[role=progressbar]
 
 ||bgcdn.com^$image
 ||biblegateway.com^$image
