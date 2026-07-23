@@ -34,7 +34,7 @@ old.reddit.com##.c-close
 old.reddit.com##.buttons {list-style:none;}
 old.reddit.com##.listing-chooser
 reddit.com/media##header
-reddit.com/media#$#img {position:absolute !important; top: 0 !important; left:0 !important; max-width: max(600px,100vw) !important; max-height:unset !important;}
+reddit.com/media#$#img {position:absolute !important; top: 0 !important; left: min(0, calc(100vw-600px)) !important; max-width: min(600px,100vw) !important; max-height:unset !important;}
 
 news.ycombinator.com##.hnname
 
