@@ -27,6 +27,7 @@ readermode_sites = [
     "biblegateway.com",
     "edu",
     "wikipedia.org",
+    "wikisource.org",
     "npr.org",
     "theguardian.com",
     "old.reddit.com",
