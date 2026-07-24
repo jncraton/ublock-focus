@@ -182,7 +182,15 @@ wikipedia.org##.ambox
 wikipedia.org##.post-content 
 wikipedia.org##.footer-content
 wikipedia.org##.last-modifier-tagline
-  
+
+!Wikisource
+
+wikisource.org###p-lang-btn
+wikisource.org##.noprint
+wikisource.org##.subpages
+wikisource.org##.similar
+wikisource.org##[role=button]
+
 !Lighter news sites
 ||$image,domain=indystar.com
 ||$script,domain=indystar.com
