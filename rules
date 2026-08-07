@@ -353,3 +353,8 @@ hymnary.org###authority_above_fold
 hymnary.org###footer
 hymnary.org##.authority_bottom_bar
 hymnary.org###block-hymnary-feedback
+
+brothers-brick.com##.gdpr
+brothers-brick.com##header
+brothers-brick.com###secondary
+brothers-brick.com###primary {width:100% !important; background: none !important;}
