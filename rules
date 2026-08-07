@@ -358,3 +358,6 @@ brothers-brick.com##.gdpr
 brothers-brick.com##header
 brothers-brick.com###secondary
 brothers-brick.com###primary {width:100% !important; background: none !important;}
+
+xkcd.com###topContainer
+xkcd.com###bottom
