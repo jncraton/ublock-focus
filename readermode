@@ -26,7 +26,7 @@ example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
 example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
 
 ! Set default body styles
-example.com#$#body {max-width:720px !important;margin:0 auto !important;font-family:noto sans cjk kr,helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important; overflow-wrap:anywhere !important; letter-spacing: 0.02em !important;}
+example.com#$#body {max-width:720px !important;margin:0 auto !important;font-family:noto sans cjk kr,helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important; overflow-wrap:anywhere !important; letter-spacing: 0.01em !important;}
 
 ! Set default heading styles
 example.com#$#h1,h2,h3,h4,h5,h6 {font-weight:normal !important;}
