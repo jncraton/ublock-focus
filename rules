@@ -363,3 +363,4 @@ mozilla.org##.notecard,details
 mozilla.org##[aria-labelledby="specifications"]
 mozilla.org##[aria-labelledby="browser_compatibility"]
 mozilla.org##[aria-labelledby="feedback"]
+mozilla.org##h1 > a,h2 > a,h3 > a {color:inherit !important; text-decoration: none;}
