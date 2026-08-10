@@ -28,6 +28,9 @@ example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: no
 ! Set default body styles
 example.com#$#body {max-width:720px !important;margin:0 auto !important;font-family:noto sans cjk kr,helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important; overflow-wrap:anywhere !important;}
 
+! Set default heading styles
+example.com#$#h1,h2,h3,h4,h5,h6 {font-weight:normal !important;}
+
 ! Set default quote and table styles
 example.com#$#blockquote, pre {border-left: 5px solid #aaa !important; padding-inline: 1em !important; margin-left: 0px !important;}
 example.com#$#blockquote, pre, table {margin-block: 1em !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important; border-collapse:collapse !important;}
