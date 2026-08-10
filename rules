@@ -358,3 +358,8 @@ brothers-brick.com###primary {width:100% !important; background: none !important
 
 xkcd.com###topContainer
 xkcd.com###bottom
+
+mozilla.org##.notecard,details
+mozilla.org##[aria-labelledby="specifications"]
+mozilla.org##[aria-labelledby="browser_compatibility"]
+mozilla.org##[aria-labelledby="feedback"]
