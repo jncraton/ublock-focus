@@ -36,6 +36,10 @@ example.com#$#blockquote, pre {border-left: 5px solid #aaa !important; padding-i
 example.com#$#blockquote, pre, table {margin-block: 1em !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important; border-collapse:collapse !important;}
 example.com#$#td,th {text-align: left; !important; vertical-align: top !important; overflow-wrap: normal !important; font-weight:normal !important; padding: 0.2em 2em 0.2em 0 !important;}
 
+! Remove list item indentation
+example.com##ol {padding-left:0 !important; list-style-position: inside !important;}
+example.com##ul {padding-left:0 !important; list-style-type: "- " !important;}
+
 ! Remove list item formatting from single-element unordered lists
 example.com##:not(li) ul:has(> :only-child) {list-style: none;}
 
