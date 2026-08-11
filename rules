@@ -33,7 +33,8 @@ old.reddit.com##.usertext-edit
 old.reddit.com##.c-close
 old.reddit.com##.buttons {list-style:none;}
 old.reddit.com##.listing-chooser
-old.reddit.com##.entry {margin-bottom: 4em;}
+old.reddit.com##.entry {margin-bottom: 3em;}
+old.reddit.com##.bylink:not(.comments)
 reddit.com/media##header
 reddit.com/media#$#img {position:absolute !important; top: 0 !important; left: max(0px, calc((100vw - 600px)/2)) !important; max-width: min(600px,100vw) !important; max-height:unset !important;}
 
