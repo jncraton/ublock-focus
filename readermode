@@ -60,7 +60,7 @@ example.com#$#input,textarea,button {color: inherit !important; background-color
 
 ! Set light and dark mode colors
 example.com#$#html:matches-media((prefers-color-scheme: light)) {color:#111;background:#fff !important;}
-example.com#$#html a:matches-media((prefers-color-scheme: light)) {color:#028;}
+example.com#$#html a:matches-media((prefers-color-scheme: light)) {color:#028 !important; text-decoration:none !important;}
 example.com#$#html:matches-media((prefers-color-scheme: dark)) {color:#eee;background:#000 !important;}
 example.com#$#html a:matches-media((prefers-color-scheme: dark)) {color:#abf;}
 
