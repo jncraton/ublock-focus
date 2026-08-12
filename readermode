@@ -36,6 +36,7 @@ example.com#$#blockquote, pre {border-left: 5px solid #aaa !important; padding-i
 example.com#$#blockquote, pre, table {margin-block: 1em !important; width: 100% !important; line-height: 1.6 !important; box-sizing: border-box !important; border-collapse:collapse !important;}
 example.com#$#td,th {text-align: left; !important; vertical-align: top !important; overflow-wrap: normal !important; font-weight:normal !important; padding: 0.2em 2em 0.2em 0 !important;}
 example.com#$#td:last-child, th:last-child {padding-right:0 !important;}
+example.com#$#*:has(table) {overflow: scroll !important;}
 
 ! Remove list item indentation
 example.com##ol {padding-left:0 !important; list-style-position: inside !important;}
