@@ -223,7 +223,7 @@ axios.com#$#li {list-style:none;}
 axios.com##nav
 axios.com##footer
 axios.com##[data-cy=go-deeper-items]
-axios.com##.items-start div, strong, #topics-pill-menu
+axios.com##.items-start div, strong, #topics-pill-menu, [data-cy="preferred-source-bottom"], [data-cy="what-to-read-next"]
 
 ||apnews.com^$image
 ||apnews.com^$script
