@@ -22,8 +22,8 @@ example.com##body:has(main) *:not(main, main *, :has(main)):remove()
 example.com##*:not(main)>header, *:not(main)>footer, nav, aside, script, noscript, svg, img, picture, figure, video, iframe, canvas:remove()
 
 ! Remove empty elements to prevent them consuming extra space
-example.com##:not(td,img,source,video,input,textarea,button):empty:remove()
-example.com#$#:not(td,img,source,video,input,textarea,button):empty {display: none;}
+example.com##:not(br,td,img,source,video,input,textarea,button):empty:remove()
+example.com#$#:not(br,td,img,source,video,input,textarea,button):empty {display: none;}
 
 ! Set default body styles
 example.com#$#body {max-width:720px !important;margin:0 auto !important;font-family:noto sans cjk kr,helvetica,arial,sans-serif !important;line-height:1.6 !important;font-size:16px !important; overflow-wrap:anywhere !important; letter-spacing: 0.01em !important;}
