@@ -182,6 +182,9 @@ wikipedia.org##.post-content
 wikipedia.org##.footer-content
 wikipedia.org##.last-modifier-tagline
 
+!Hide content not printed
+wikipedia.org##.noprint
+
 !Wikisource
 
 wikisource.org###p-lang-btn
