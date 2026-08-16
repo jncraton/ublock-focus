@@ -171,6 +171,7 @@ wikipedia.org##.infobox tr:has(td:first-child:last-child,th:first-child:last-chi
 
 !Hide sister project links
 wikipedia.org##div[aria-labelledby="sister-projects"]
+wikipedia.org##.sistersitebox
 
 !Hide banner
 wikipedia.org##.banner-container
