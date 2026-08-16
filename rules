@@ -162,6 +162,7 @@ wikipedia.org##.printfooter
 wikipedia.org###mp-bottom
 wikipedia.org###mp-welcomecount
 wikipedia.org###mw-indicator-coordinates
+wikipedia.org##[role="note"]
 
 !Hide lang list
 wikipedia.org##.vector-dropdown
