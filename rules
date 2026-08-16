@@ -377,3 +377,6 @@ mozilla.org##h1 > a,h2 > a,h3 > a {color:inherit !important; text-decoration: no
 ccel.org##span:has(q)
 ccel.org###footer
 ccel.org##[data-provide="datepicker"]
+
+||*^$domain=goodreads.com,image,important
+goodreads.com###ReviewsSection, .SocialSignalsSection, hr, .Carousel, header, footer
