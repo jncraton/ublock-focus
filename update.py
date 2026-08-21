@@ -21,6 +21,7 @@ readermode_sites = [
     "apnews.com",
     "reuters.com",
     "news.ycombinator.com",
+    "lobste.rs",
     "indystar.com",
     "heraldbulletin.com",
     "bbc.com",

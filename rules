@@ -38,6 +38,9 @@ old.reddit.com##.bylink:not(.comments)
 reddit.com/media##header
 reddit.com/media#$#img {position:absolute !important; top: 0 !important; left: max(0px, calc((100vw - 600px)/2)) !important; max-width: min(600px,100vw) !important; max-height:unset !important;}
 
+lobste.rs##.voters,.tags,.caches,.mobile_comments,time,[aria-hidden="true"]
+lobste.rs#$#ol {list-style:none !important;}
+
 news.ycombinator.com##.hnname
 
 !Manually supply indent cell width on HN removed by readermode
