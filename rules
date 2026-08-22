@@ -1,9 +1,12 @@
 !Hide all images on sites where they aren't relevant
-||pandora.com^$image
-||reddit.com^$image
-||lobste.rs^$image
-||pussthecat.org^$image
-||teddit.net^$image
+||pandora.com^$image,font,media
+||reddit.com^$image,font,media
+||redd.it^$image,font,media
+||redditmedia.com^$image,font,media
+||redditstatic.com^$image,font,media
+||lobste.rs^$image,font,media
+||pussthecat.org^$image,font,media
+||teddit.net^$image,font,media
 
 old.reddit.com###header
 old.reddit.com##.infobar
