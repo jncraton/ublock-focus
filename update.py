@@ -26,7 +26,6 @@ readermode_sites = [
     "heraldbulletin.com",
     "bbc.com",
     "biblegateway.com",
-    "edu",
     "wikipedia.org",
     "wikisource.org",
     "npr.org",
