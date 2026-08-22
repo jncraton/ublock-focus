@@ -395,3 +395,4 @@ goodreads.com###ReviewsSection, .SocialSignalsSection, hr, .Carousel, header, fo
 ||fonts.gstatic.com^$domain=anderson.edu
 ||fonts.googleapis.com^$domain=anderson.edu
 ||unpkg.com^$domain=anderson.edu,font
+admin.anderson.edu##.search_area,.sf-nav__header--branded,[aria-label="Collapse main menu"],[aria-label="Help"],[aria-label="Notifications"],.sf-search-submit,.k-icon
