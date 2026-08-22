@@ -381,3 +381,17 @@ ccel.org##[data-provide="datepicker"]
 
 ||*^$domain=goodreads.com,image,important
 goodreads.com###ReviewsSection, .SocialSignalsSection, hr, .Carousel, header, footer
+
+||admin.anderson.edu^$image
+||admin.anderson.edu/*/pdf-print.js$script,redirect=noop.js
+||admin.anderson.edu/*/wcag-aria-fixes.js$script,redirect=noop.js
+||admin.anderson.edu/*/wcag-focus.js$script,redirect=noop.js
+||admin.anderson.edu/*/sf-a11y.js$script,redirect=noop.js
+||admin.anderson.edu/*/admin-inactivity.js$script,redirect=noop.js
+||admin.anderson.edu/*/featureFlagVerification.js$script,redirect=noop.js
+||admin.anderson.edu/*/workflow-diagram-helpers.j$script,redirect=noop.js
+||admin.anderson.edu/*/integrations.j$script,redirect=noop.js
+!||fontawesome.com^$domain=anderson.edu
+||fonts.gstatic.com^$domain=anderson.edu
+||fonts.googleapis.com^$domain=anderson.edu
+||unpkg.com^$domain=anderson.edu,font
