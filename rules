@@ -9,6 +9,7 @@
 ||teddit.net^$image,font,media
 ||googleusercontent.com^$image,font,media
 ||gstatic.com^$image,media
+*##img[src*="gstatic.com"]
 
 old.reddit.com###header
 old.reddit.com##.infobar
