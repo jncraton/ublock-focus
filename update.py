@@ -62,6 +62,8 @@ readermode_sites = [
     "hymnary.org",
     "mozilla.org",
     "python.org",
+    "mayoclinic.org",
+    "clevelandclinic.org",
 ]
 
 focus = rules
