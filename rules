@@ -61,6 +61,8 @@ news.ycombinator.com#$#.titleline {font-size:1.25em;}
 news.ycombinator.com##.itemlist tr:nth-child(n+30)
 lobste.rs##.stories li:nth-child(n + 11)
 
+arstechnica.com##[class*="caption"]
+
 !Hide GH avatars
 github.com##.avatar
 github.com##[data-component=Avatar]

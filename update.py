@@ -62,6 +62,7 @@ readermode_sites = [
     "hymnary.org",
     "mozilla.org",
     "python.org",
+    "arstechnica.com",
     "mayoclinic.org",
     "clevelandclinic.org",
 ]
