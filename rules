@@ -401,3 +401,5 @@ admin.anderson.edu##.search_area,.sf-nav__header--branded,[aria-label="Collapse 
 
 mayoclinic.org##.myc-subscription-form,[role="alert"],#maincta,.requestappt,.print,.mayoad
 clevelandclinic.org##[data-identity="callout-title"],[data-identity="callout-links"],[data-identity="desktop-sticky-nav-links"],[data-identity="inline-cta-panel"],[data-identity="contact-ribbon"],[data-identity="page-header"]
+
+fandom.com###page-header,.messagebox,.mw-editsection,#p-lang,.page-footer
