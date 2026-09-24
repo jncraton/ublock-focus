@@ -75,5 +75,5 @@ example.com##+js(rpnt, #text, /^\s+$/gm, " ", 0)
 example.com##.Carousel-slides,bsp-page-actions,bsp-list-loadmore
 example.com##button,input,textarea,select
 
-! Hide likely media related classes
-example.com##.featured-video, .video-player, .video-container
+! Hide likely media related classes and ids
+example.com##[id*=video],[class*=video],[id*=audio],[class*=audio],[id*=embed],[class*=embed],[id*=overlay],[class*=overlay]
