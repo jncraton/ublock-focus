@@ -64,6 +64,7 @@ readermode_sites = [
     "python.org",
     "arstechnica.com",
     "fandom.com",
+    "newyorker.com",
     "mayoclinic.org",
     "clevelandclinic.org",
 ]
