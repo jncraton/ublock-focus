@@ -403,3 +403,5 @@ mayoclinic.org##.myc-subscription-form,[role="alert"],#maincta,.requestappt,.pri
 clevelandclinic.org##[data-identity="callout-title"],[data-identity="callout-links"],[data-identity="desktop-sticky-nav-links"],[data-identity="inline-cta-panel"],[data-identity="contact-ribbon"],[data-identity="page-header"]
 
 fandom.com###page-header,.messagebox,.mw-editsection,#p-lang,.page-footer
+
+stackoverflow.com###question-header div, .post-signature, .comments, .comment, .post-layout>:not(.postcell,.answercell), form
