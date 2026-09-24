@@ -65,6 +65,7 @@ readermode_sites = [
     "arstechnica.com",
     "fandom.com",
     "newyorker.com",
+    "substack.com",
     "mayoclinic.org",
     "clevelandclinic.org",
 ]
