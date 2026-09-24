@@ -63,6 +63,7 @@ readermode_sites = [
     "mozilla.org",
     "python.org",
     "arstechnica.com",
+    "fandom.com",
     "mayoclinic.org",
     "clevelandclinic.org",
 ]
