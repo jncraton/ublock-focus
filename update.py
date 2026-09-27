@@ -68,6 +68,8 @@ readermode_sites = [
     "substack.com",
     "medium.com",
     "stackoverflow.com",
+    "dictionary.com",
+    "thesaurus.com",
     "mayoclinic.org",
     "clevelandclinic.org",
 ]
