@@ -116,6 +116,7 @@ biblegateway.com##.copyright-table
 biblegateway.com##footer
 biblegateway.com##.passage-bar
 biblegateway.com##.passage-tools2
+biblegateway.com##.footnote,.footnotes,.crossreference,.crossreferences,.crossrefs
 
 !Hide profile pictures on forums
 ##.ipsUserPhoto
