@@ -77,3 +77,7 @@ example.com##button,input,textarea,select
 
 ! Hide likely media related classes and ids
 example.com##[id*=video],[id*=audio],[id*=embed],[id*=overlay],[class*=overlay]
+
+! Hide content hidden from googlebot
+! https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
+example.com##[data-nosnippet]
