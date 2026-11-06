@@ -70,6 +70,7 @@ readermode_sites = [
     "stackoverflow.com",
     "dictionary.com",
     "thesaurus.com",
+    "christianscholars.com",
     "mitpress.mit.edu",
     "mayoclinic.org",
     "clevelandclinic.org",
